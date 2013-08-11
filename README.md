@@ -1,7 +1,7 @@
 SuperSlider
 ====================
 
-My moddest attempt on creating a JS prototyped library.
+My modest attempt on creating a JS prototyped library.
 
 The pics are a random selection from flickr.
 
