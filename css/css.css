@@ -1,0 +1,90 @@
+* {
+	outline:0 none !important;
+}
+body {
+	font-family:'OpenSansRegular',sans-serif;
+	background:url('../img/bg1.jpg') repeat;
+	color:rgb(200,200,200);
+}
+body * {
+	overflow:hidden;
+}
+header,footer {
+	padding:0 30px;
+}
+#header,#footer,#content>div {
+	max-width:800px;
+	margin:0px auto;
+}
+
+#content {
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #333333 0%, rgba(0,0,0,0.5) 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #333333 0%, rgba(0,0,0,0.5) 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #333333 0%, rgba(0,0,0,0.5) 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #333333), color-stop(1, rgba(0,0,0,0.5)));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #333333 0%, rgba(0,0,0,0.5) 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #333333 0%, rgba(0,0,0,0.5) 100%);
+	border-top:2px solid rgb(210,210,210);
+	border-bottom:2px solid rgb(210,210,210);
+	margin-top:15px;
+}
+.trans {
+	-ms-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.navbar {
+	margin:0px;
+}
+.navbar-inner {
+	padding:10px 0;
+	min-height: 20px;
+	background:transparent;
+	box-shadow:0 0 0;
+	border:0px;
+}
+.navbar .nav {
+	margin:0px;
+	padding: 0;
+}
+.navbar .nav > li {
+	font-size:14px;
+	background:transparent;
+	color:rgb(205,205,205);
+	border:1px solid gray;
+	border-radius:0px;
+	padding:5px 0;
+	float:left;
+	text-align:center;
+	width: 38px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	list-style:none;
+}
+.navbar .nav > li:not(:last-child) {
+	margin-right:10px;
+}
+.navbar .nav > li:hover {
+	color:#FBC615;
+	border-color:#FBC615;
+	cursor:pointer;
+}
+.navbar .nav > li.active {
+	border-color:#fff;
+	color:#fff;
+}
+.slider {
+	position:relative;
+	transition:right 0.5s ease-in-out;
+	right:0px;
+	margin-bottom:15px;
+}
+.panel{
+	float:left;
+	text-align:center;
+}
+.panel:last-child p {
+	line-height:24px;
+}

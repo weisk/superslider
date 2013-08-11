@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SuperSlider</title>
+	<meta name="copyright" content="Copyright &copy; 2013 Francesc Mallafre Lopez" />
+	<link rel="stylesheet" href="css/fonts.css"/>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="css/css.css"/>
+
+</head>
+
+<body>
+	
+		<header>
+
+			<div id="header">
+				<form class="form-horizontal">
+					<div class="control-group">
+						<label class="control-label" for="photos">Number of pics</label>
+						<div class="controls"><input id="photos" type="text" placeHolder="20"></div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="height">Pics height (px)</label>
+						<div class="controls"><input id="height" type="text" placeHolder="600"></div>
+					</div>
+					<div class="controls">
+						<button id="start" class="btn" type="button">Start</button>
+					</div>
+				</form>
+			</div>
+
+		</header>
+
+		<div id="content">
+			
+			<div class="navbar"><div class="navbar-inner"><ul class="nav"></ul></div></div>
+			<div class="subcontent"><div class="slider"></div></div>
+
+		</div>
+
+		<footer>
+
+			<div id="footer"></div>
+
+		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="src/superslider.js"></script>
+		<script src="src/js.js"></script>
+		<script>$(document).load(onload());</script>
+
+	</body>
+
+</html>
